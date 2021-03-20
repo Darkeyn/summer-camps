@@ -1,0 +1,264 @@
+@charset "utf-8";
+*{
+  margin: 0;
+  padding: 0;
+  outline: none;
+}
+
+html {
+  height: 100%;
+}
+
+p {
+  margin-bottom: 10px;
+}
+
+#inf {
+    text-indent: 25px;
+}
+
+#welcome{
+  color: silver;
+  font-family: Comic Sans MS, sans-serif;
+  font-size: 1.7em;
+  margin-bottom: 20px;
+}
+
+#log {
+  background: rgba(0, 0, 0, 0.6);
+  margin-top: 250px;
+  margin-left: 700px;
+  margin-right: 700px;
+  padding: 30px;
+  border-radius: 10px;
+}
+
+input[type=text].login{
+  font-size: 1em;
+  border-radius: 5px;
+  border-radius: 2x solid silver;
+  padding: 5px;
+  width: 200px;
+}
+
+input[type=text].password{
+  font-size: 1em;
+  border-radius: 5px;
+  border-radius: 2x solid silver;
+  padding: 5px;
+  width: 200px;
+}
+
+input[type=text].name{
+  font-size: 1em;
+  border-radius: 5px;
+  border-radius: 2x solid silver;
+  padding: 5px;
+  width: 200px;
+}
+
+input[type=submit].vxod{
+  font-size: 1.2em;
+  background-color: #9ACD32;
+  border-radius: 5px;
+  border-radius: 2x solid silver;
+  padding: 5px;
+  width: 100px;
+}
+
+input[type=submit].vixod{
+  font-size: 1.2em;
+  background-color: #9ACD32;
+  border-radius: 5px;
+  border-radius: 2x solid silver;
+  padding: 5px;
+  width: 100px;
+}
+
+input[type=submit].reg{
+  font-size: 1.2em;
+  background-color: #9ACD32;
+  border-radius: 5px;
+  border-radius: 2x solid silver;
+  padding: 5px;
+  width: 200px;
+}
+
+input[type=submit].search{
+  style="font-size: 1.1em;
+  background-color: #9ACD32;
+  border-radius: 5px;
+  border-radius: 2x solid silver;
+  padding: 5px;
+  margin-left: 20px;
+  width: 100px;
+}
+
+input[type=text].field{
+  border-radius: 5px;
+  border-radius: 2x solid silver;
+  padding: 5px;
+  margin-left: 20px;
+}
+
+input[type=text].field:focus{
+  border: 2px solid #f58b8b;
+}
+
+#onas {
+  background: rgba(0, 0, 0, 0.5);
+  margin-top: 50px;
+  margin-left: 300px;
+  margin-right: 300px;
+  margin-bottom: 50px;
+  border-radius: 15px;
+  padding: 20px;
+}
+
+#zapros_net {
+  background: rgba(0, 0, 0, 0.5);
+  margin-top: 50px;
+  margin-left: 700px;
+  margin-right: 700px;
+  border-radius: 15px;
+  padding: 10px;
+}
+
+#lagerbox {
+  background: rgba(0, 0, 0, 0.5);
+  margin-top: 50px;
+  margin-left: 300px;
+  margin-right: 300px;
+  margin-bottom: 50px;
+  border-radius: 15px;
+  padding: 20px;
+}
+
+body{
+  background-image: url(../img/fon.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  width: 100%;
+  height: 100%;
+  color: Gainsboro;
+  font-size: 1em;
+    font-family: "Segoe UI", sans-serif;
+  line-height: 135%;
+}
+
+a {
+  color: #f48b8b;
+  text-decoration: none;
+  transition: all.6s ease;
+  -moz-transition: all.6s ease;
+  -webkit-transition: all.6s ease;
+  -ms-transition: all.6s ease;
+}
+
+a:have {
+  color: #8b9ff5;
+  text-decoration: none;
+  transition: all.6s ease;
+  -moz-transition: all.6s ease;
+  -webkit-transition: all.6s ease;
+  -ms-transition: all.6s ease;
+}
+
+a:active {color: #8ce4a6}
+
+img {
+  max-width: 100%;
+  height: auto;
+  width: auto\9;
+}
+
+hr {
+  display: block;
+  border: 0;
+  height: 1px;
+  border-top: 1px solid #ccc;
+  padding: 0;
+}
+
+.right{ float: right;}
+
+.left{float: left;}
+
+.clear{clear: both;}
+
+::selection {background: #f48b8b; color: #fff}
+::-moz-selection {background: #f48b8b; color: #fff}
+
+header, footer {
+  background: rgba(0, 0, 0, 0.5);
+  width: 98%;
+  float: left;
+}
+
+header {
+  padding: 1%;
+  border-bottom: 2px solid silver;
+}
+
+#logo {
+  font-size: 2em;
+  font-family: Comic Sans MS, sans-serif;
+  color: silver;
+}
+
+.contact{
+  font-size: 1.5em;
+  font-family: Comic Sans MS, sans-serif;
+  margin-left: 20px;
+}
+
+#menu {
+  color: silver;
+  font-family: Comic Sans MS, sans-serif;
+  font-size: 1.7em;
+}
+
+#menu hr {
+  width: 500px;
+  max-width: 100%;
+  margin-top: 5px;
+  margin-bottom: 10px;
+}
+
+#menuHrefs a {
+  padding: 5px;
+  border-radius: 5px;
+  margin-right: 5px;
+  color: Gainsboro;
+}
+
+#menuHrefs a:hover {
+  background: rgba(0, 0, 0, 0.6);
+}
+
+/* foot styles */
+
+footer {
+  padding: 1%;
+  border-bottom: 2px solid silver;
+  margin-top: 10px;
+  padding-bottom: 2%;
+}
+
+footer img{
+  margin-right: 5px;
+  float: left;
+  width: 10%;
+}
+
+#page-wrap:after {
+  content: "";
+  display: block;
+}
+
+footer, #page-wrap:after {height: 10px;}
+
+#page-wrap {
+  min-height: 94%;
+  margin-bottom: -10px;
+}
